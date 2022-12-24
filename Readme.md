@@ -1,6 +1,3 @@
-	This project is not actively maintained and looking for a maintainer!
-
-
 # Description
 This fork is only made for rails 7 (`rails7` branch) and ruby version >= 2.3.
 Other versions have not been tested and it is not known if they work.
