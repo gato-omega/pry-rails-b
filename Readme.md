@@ -1,16 +1,17 @@
 # Description
-This fork is only made for rails 7 (`rails7` branch) and ruby version >= 2.3.
+This fork of **original https://github.com/pry/pry-rails, which is no longer
+maintained**, is only made for rails 7 (`rails7` branch) and ruby version >= 2.3.
+
+
 Other versions have not been tested and it is not known if they work.
 
 Currently, as a test, the new `show-notes` command has been added.
 
 # Prerequisites
-
 - A Rails >= 7.0 Application
 - Ruby >= 2.3
 
 # Installation
-
 Add this line to your gemfile:
 
 	gem 'pry-rails', group: :development, git: 'https://github.com/sumskyi/pry-rails', branch: 'rails7'
@@ -18,7 +19,6 @@ Add this line to your gemfile:
 `bundle install` and enjoy pry.
 
 # Usage
-
 ```
 $ rails console
 [1] pry(main)> show-routes
@@ -99,7 +99,6 @@ config/initializers/rails_admin.rb
 ```
 
 ## Custom Rails prompt
-
 If you want to permanently include the current Rails environment and project name
 in the Pry prompt, put the following lines in your project's `.pryrc`:
 
@@ -120,7 +119,6 @@ Check out `change-prompt --help` for information about temporarily
 changing the prompt for the current Pry session.
 
 ## Disabling pry-rails
-
 If pry-rails is included in your application but you would prefer not to use it, you may run the following command to set the appropriate environment variable to disable initialization and fall back to the default IRB console:
 ```shell
 DISABLE_PRY_RAILS=1 rails console
@@ -129,7 +127,6 @@ DISABLE_PRY_RAILS=1 rails console
 Note that you may need to run `spring stop` first.
 
 # Developing and Testing
-
 This repo uses [Roadshow] to generate a [Docker Compose] file for each
 supported version of Rails (with a compatible version of Ruby for each one).
 
@@ -156,6 +153,5 @@ maintained manually.
 [get the Roadshow tool]: https://github.com/rf-/roadshow/releases
 
 # Alternative
-
 If you want to enable pry everywhere, make sure to check out
 [pry everywhere](http://lucapette.me/pry-everywhere).
