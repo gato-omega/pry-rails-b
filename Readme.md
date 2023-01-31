@@ -1,6 +1,6 @@
 # Description
-This fork of **original https://github.com/pry/pry-rails, which is no longer
-maintained**, is only made for rails 7 (`rails7` branch) and ruby version >= 2.3.
+This fork of the **original https://github.com/pry/pry-rails, which is no longer
+maintained**, its only made for rails 7 (`rails7` branch) and ruby version >= 2.3.
 
 
 Other versions have not been tested and it is not known if they work.
