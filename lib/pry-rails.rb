@@ -3,7 +3,7 @@
 require 'pry'
 require 'pry-rails/version'
 
-if defined?(Rails) && !ENV['DISABLE_PRY_RAILS']
+if defined?(Rails) && %w[1 true].include?(ENV['PRY'])
   require 'pry-rails/railtie'
   require 'pry-rails/commands'
   require 'pry-rails/model_formatter'
