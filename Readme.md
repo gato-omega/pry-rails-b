@@ -19,7 +19,7 @@ The reason for this fork is to make **pry-rails** load only if environment varia
 
 Add this line to your gemfile:
 
-    gem 'pry-rails', group: :development, git: 'https://github.com/sumskyi/pry-rails', branch: 'rails7'
+    gem 'pry-rails', group: :development, git: 'https://github.com/AlexBeznoss/pry-rails', branch: 'rails7'
 
 `bundle install` and enjoy pry.
 
